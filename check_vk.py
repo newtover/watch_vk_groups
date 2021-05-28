@@ -1,4 +1,4 @@
-#!/opt/conda/envs/py36/bin/python3
+#!/usr/bin/env python3
 
 import datetime as dt
 import json
