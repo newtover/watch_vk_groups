@@ -1,0 +1,18 @@
+[database]
+path = 'database.db'
+
+[vk]
+# open in browser https://oauth.vk.com/authorize?client_id=7863779&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=groups,offline&response_type=token&v=5.52
+# for details (implicit flow): https://vk.com/dev/access_token
+access_token = ''
+api_version = '5.52'
+
+  # группы, которые надо мониторить
+  [vk.groups]
+  '-18901857' = 'Новости «Фонтанка.ру»'
+
+  # справочник, чтобы отображать идентификаторы авторов сообщений в группах
+  [vk.users]
+  '-18901857' = 'Фонтанка.ру'
+  '1' = 'Павел Дуров'
+
