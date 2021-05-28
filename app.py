@@ -60,7 +60,7 @@ class Database:
 
 
 def main():
-    config_path = Path()
+    config_path = Path('config.yaml')
     c = Config(config_path)
     print(c.database)
     print(c.vk)
